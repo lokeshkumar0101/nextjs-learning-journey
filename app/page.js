@@ -1,28 +1,11 @@
 import Link from "next/link";
 
-const page = () => {
+const Home = () => {
   return (
-    <>
-      <div className="w-full py-4 bg-teal-500 text-white text-3xl text-center font-bold flex justify-between px-10">
-        <h3>Home</h3>
-        <ul>
-          <Link
-            className="text-lg text-white font-semibold pr-5"
-            href="/about"
-          >
-            About
-          </Link>
-
-          <Link
-            className="text-lg text-white font-semibold"
-            href="/contact"
-          >
-            Contact
-          </Link>
-        </ul>
-      </div>
-    </>
+    <div className="h-screen w-full bg-slate-500 text-center font-bold text-4xl text-white pt-44">
+      <h3>This is Home component.</h3>
+    </div>
   );
 };
 
-export default page;
+export default Home;

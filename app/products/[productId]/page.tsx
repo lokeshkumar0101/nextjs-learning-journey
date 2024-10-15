@@ -1,3 +1,4 @@
+
 export default function productId({params}:{
     params:{
         productId: String
